@@ -201,3 +201,12 @@ include::complete/src/test/java/hello/HelloWorldConfigurationTests.java[]
 Congratulations! You have just developed a simple RESTful service using Spring. You added some useful built-in services thanks to Spring Boot Actuator.
 
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/footer.adoc[]
+
+
+
+== Test weather application
+....
+$ mvn clean install && java -jar target/gs-actuator-service-0.1.0.jar
+
+... service comes up on port 9000 ...
+...
