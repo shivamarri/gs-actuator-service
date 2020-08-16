@@ -206,6 +206,8 @@ include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/
 
 == Test weather application
 ....
+
+cd complete/
 mvn clean install && java -jar target/gs-actuator-service-0.1.0.jar
 
 ... service comes up on port 9000 ...
